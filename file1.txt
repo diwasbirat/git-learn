@@ -44,3 +44,5 @@ To move staged to not staged:
 => git reset HEAD
 => git reset HEAD <filename>
 
+To unmodifying a modifying file:
+=> git checkout <filename>
