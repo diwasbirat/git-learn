@@ -29,3 +29,18 @@ clone existing Repository:
 Checking the status file:
 => git status
 => git status -s (short status)
+
+View Difference:
+=> git diff (find the Difference between commited and unstaged files)
+=> git diff --staged (Difference in staged file)
+
+To remove file from git:
+=> git rm <filename>
+
+To move file:
+=> git mv file_from file_to (If we rename the file)
+
+To move staged to not staged:
+=> git reset HEAD
+=> git reset HEAD <filename>
+
