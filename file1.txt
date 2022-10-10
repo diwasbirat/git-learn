@@ -1,1 +1,31 @@
-hlw this is git learning.helllo
+For config:
+=> git config --global user.name "Your name"
+=> git config --global user.email "your email"
+
+
+To view user.name and email:
+=> git config --list
+
+To get help:
+=> git help
+=> git help <topic>
+
+
+Initilize a Repository
+=> git init
+
+To add File to staging area:
+=> git add <filename>
+=> git add <filename1> <filename2>
+=> git add .        (To add all file in directory)
+
+To commit change:
+=> git commit -m "short and sweet message"
+=> git commit -am "staging and commit directly"
+
+clone existing Repository:
+=> git clone <project_url>
+
+Checking the status file:
+=> git status
+=> git status -s (short status)
