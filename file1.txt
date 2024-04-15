@@ -46,3 +46,7 @@ To move staged to not staged:
 
 To unmodifying a modifying file:
 => git checkout <filename>
+
+
+To push to github
+=>git push -u origin <branch name>
